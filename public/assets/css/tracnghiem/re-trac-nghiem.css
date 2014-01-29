@@ -1,0 +1,6 @@
+.hero-unit{
+	min-height: 0px !important;
+}
+.hero-unit{
+   	background-position-y: -100px;
+}

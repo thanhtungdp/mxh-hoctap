@@ -1,0 +1,51 @@
+Models
+	ChemistryEquation: tổng hợp các phương trình hóa học
+	ChemistryThulium : tổng hợp các chất
+	ChemistryThuliumEquaiton: Bảng liên hệ giữa các chất và phương trình hóa học
+	Route::get('delete',function(){
+	ChemistryEquation::truncate();
+	ChemistryChatThamGia::truncate();
+	ChemistryChatTaoThanh::truncate();
+	ChemistryThulium::truncate();
+});
+Route::get('drop',function(){
+	
+});
+
+
+Route::get('/install-equation',function(){
+	Schema::create("chemistry-equation",function($table){
+		$table->increments("id");
+		$table->text("equation");				//Phương trình hóa học Fe + Cl2 => FeCl3
+		$table->text("balancedEquation");		//Phương trình cân bằng 2Fe + 3Cl2 =>2FeCl3
+		$table->text("condition");				// Điều kiện của phương trình
+		$table->text("reaction");				//Hiện tương phản ứng
+		$table->text("typeReaction");			//Loại phản ứng		
+		$table->timestamps();			
+	});
+	Schema::create("chemistry-thulium",function($table){
+		$table->increments("id");
+		$table->string("thuliumMolecular");			// AlCl3 Fe Cl2 Cl3
+		$table->string("thuilumName");
+		$table->timestamps();			
+	});
+	Schema::create("chemistry-ChatThamGia",function($table){
+		$table->increments("id");
+		$table->integer("thuliumId");
+		$table->integer("equationId");
+		$table->timestamps();
+	});
+	Schema::create("chemistry-ChatTaoThanh",function($table){
+		$table->increments("id");
+		$table->integer("thuliumId");
+		$table->integer("equationId");
+		$table->timestamps();
+	});
+});
+
+Route::get('/install-thulium',function(){
+	
+});
+
+Trang ko ghi được
+2

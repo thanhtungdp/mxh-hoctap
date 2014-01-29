@@ -1,0 +1,50 @@
+body{
+	font-family: 'Open Sans',Helvertica,Arial,Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5{
+	font-weight: 600;
+}
+.btn,.btn:focus{
+	background: #1abc9c;
+	padding:5px 20px;
+	color:#fff;
+	border:0px;
+	box-shadow: none;
+	text-shadow:none;
+	height: inherit;
+	font-size: 16px;
+	margin-left: 0px;
+}
+.btn:hover,.btn:visited{
+	background: #1fb597;
+	color:#fff;
+}
+:focus,:active{outline:none;}
+.btn:focus,.btn:active{outline: none;}
+.title-18{
+	font-size: 18px;
+}
+.title-16{
+	font-size: 16px;
+}
+
+.navbar-inner .container{
+	width: 1170px;
+}
+#signin,#signup{
+	width:30%;
+	margin:auto;
+}
+input[name=captcha]{
+		width: 80%;
+	}
+@media (max-width: 699px){
+	#signin,#signup{
+		width: 60%;
+	}
+	input[name=captcha]{
+		width: 100%;
+	}
+}

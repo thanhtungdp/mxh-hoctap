@@ -1,0 +1,41 @@
+body{
+	font-family: 'Open Sans',Helvertica,Arial,Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5{
+	font-weight: 600;
+}
+.btn,.btn:focus{
+	background: #1abc9c;
+	color:#fff;
+	border:0px;
+	box-shadow: none;
+	text-shadow:none;
+	height: inherit;
+	font-size: 16px;
+	margin-left: 0px;
+}
+.btn:hover,.btn:visited{
+	background: #1fb597;
+	color:#fff;
+}
+:focus,:active{outline:none;}
+.btn:focus,.btn:active{outline: none;}
+.title-18{
+	font-size: 18px;
+}
+.title-16{
+	font-size: 16px;
+}
+
+.hero-unit{
+	background: transparent url('../img/bg_main.jpg') no-repeat 50% top;
+	min-height:400px;
+	background-position-y:-200px;
+	background-size: cover;
+	border-radius: 0;
+	margin-bottom: 0;
+	color:#fff;
+	padding:0px;
+}

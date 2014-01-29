@@ -1,0 +1,148 @@
+2AgOH Ag2O  +  H2O
+2Ba(NO3)2 2BaO  +  4NO2  +  4O2
+3Ba(NO3)2  +  Fe2(SO4)3 2Fe(NO3)3  +  3BaSO4
+Ba(NO3)2  +  FeSO4 Fe(NO3)2  +  BaSO4
+3Ba(NO3)2  +  2K3PO4 6KNO3  +  Ba3(PO4)2
+Ba(NO3)2  +  CuSO4 Cu(NO3)2  +  BaSO4
+Ba(NO3)2  +  H2SO4 2HNO3  +  BaSO4
+Ba(NO3)2  +  H2O  +  Na2Cr2O7 2HNO3  +  Na2CrO4  +  BaCrO4
+(NH4)2SO4  +  Ba(NO3)2 2NH4NO3  +  BaSO4
+Ba(NO3)2 O2  +  Ba(NO2)2
+Ba(NO3)2  +  4H 2H2O  +  Ba(NO2)2
+2Ba(NO3)2 2BaO  +  4NO2  +  4O2
+3Ba(NO3)2  +  Fe2(SO4)3 2Fe(NO3)3  +  3BaSO4
+Ba(NO3)2  +  FeSO4 Fe(NO3)2  +  BaSO4
+3Ba(NO3)2  +  2K3PO4 6KNO3  +  Ba3(PO4)2
+Ba(NO3)2  +  CuSO4 Cu(NO3)2  +  BaSO4
+Ba(NO3)2  +  H2SO4 2HNO3  +  BaSO4
+Ba(NO3)2  +  H2O  +  Na2Cr2O7 2HNO3  +  Na2CrO4  +  BaCrO4
+(NH4)2SO4  +  Ba(NO3)2 2NH4NO3  +  BaSO4
+Ba(NO3)2 O2  +  Ba(NO2)2
+Ba(NO3)2  +  4H 2H2O  +  Ba(NO2)2
+2HgO 2Hg  +  O2
+HgO  +  2HNO3 H2O  +  Hg(NO3)2
+2HgO  +  NH4OH (Hg2N)OH.2H2O
+2HCl  +  HgO H2O  +  HgCl2
+2Cl2  +  HgO HgCl2  +  Cl2O
+HgO  +  2HSCN H2O  +  Hg(SCN)2
+2Br2  +  H2O  +  HgO HgBr2  +  2HBrO
+H2O  +  HgO  +  2I2 HgI2  +  2HIO
+8H2O  +  5K2S2O8  +  2MnSO4 2H2SO4  +  2KMnO4  +  10KHSO4
+2H2O  +  K2S2O8  +  MnSO4 2H2SO4  +  MnO2  +  K2SO4
+CH3COONa  +  C2H5I NaI  +  CH3COOC2H5
+H2S  +  Cd(NO3)2 2HNO3  +  CdS
+2HCl  +  CdS CdCl2  +  H2S
+10HNO3  +  CdS 4H2O  +  H2SO4  +  8NO2  +  Cd(NO3)2
+8HNO3  +  3CdS 4H2O  +  2NO  +  3S  +  3Cd(NO3)2
+H2SO4  +  CdS H2S  +  CdSO4
+2SO2  +  CdS S  +  CdSO4
+3O2  +  2CdS 2SO2  +  2CdO
+2HCl  +  CdO CdCl2  +  H2O
+CO2  +  CdO CdCO3
+H2O  +  CdO Cd(OH)2
+2CdO O2  +  2Cd
+SiO2  +  2CdO Cd2SiO4
+H2  +  CdO H2O  +  Cd
+2KOH  +  CdO H2O  +  K2CdO2
+3S  +  2CdO SO2  +  2CdS
+SO2  +  CsF CsSO2F
+CsF  +  PF5 CsPF6
+2CsF  +  SiF4 Cs2SiF6
+3F2  +  I2  +  2CsF 2CsIF4
+Cl2  +  CsF  +  SF4 CsCl  +  SClF5
+3H2O  +  Cr2S3 3H2S  +  Cr2O3
+3O2  +  Cr2S3 3SO2  +  Cr2O3
+6HCl  +  Cr2S3 3H2S  +  2CrCl3
+3H2O  +  3NH4OH  +  Cr2S3 2Cr(OH)3  +  3NH4HS
+6H2SO4  +  Cr2S3 6H2O  +  3S  +  3SO2  +  Cr2(SO4)3
+30HNO3  +  Cr2S3 12H2O  +  3H2SO4  +  24NO2  +  2Cr(NO3)3
+3KOH  +  Cr(NO3)3 3KNO3  +  Cr(OH)3
+3NaOH  +  Cr(NO3)3 3NaNO3  +  Cr(OH)3
+HCl  +  Ca(AlO2)2 AlCl3  +  H2O  +  CaCl2
+4H2O  +  2CO2  +  Ca(AlO2)2 2Al(OH)3  +  Ca(HCO3)2
+2NH4Cl  +  Zn(NH2)2 [Zn(NH3)4]Cl2
+C6H5COCH3  +  CH3COOOH CH3COOH  +  C6H5COOCH3
+3H2SO4  +  5NaBr  +  NaBrO3 3Br2  +  3H2O  +  3Na2SO4
+2NaBrO3 2NaBr  +  3O2
+3C  +  2NaBrO3 2NaBr  +  3CO2
+2H2O  +  3H2SO4  +  5Cr2O3  +  6NaBrO3 3Br2  +  3Na2SO4  +  5H2Cr2O7
+2NH3  +  NaBrO3 3H2O  +  N2  +  NaBr
+Ga2O3  +  ZnCO3 CO2  +  ZnGa2O4
+2HCl  +  ZnCO3 H2O  +  ZnCl2  +  CO2
+HCl  +  HCOOK HCOOH  +  KCl
+2NH4OH  +  NH4H2PO4 (NH4)3PO4  +  2H2O
+3AgNO3  +  3NH4H2PO4 3NH4NO3  +  Ag3PO4  +  2H3PO4
+NaOH  +  C2H5COONa C2H6  +  Na2CO3
+Ba(OH)2  +  Ca(HSO4)2 2H2O  +  CaSO4  +  BaSO4
+Ca(OH)2  +  Ca(HSO4)2 2H2O  +  2CaSO4
+NH4OH  +  (NH4)2HPO4 (NH4)3PO4  +  H2O
+CaCl2  +  (NH4)2HPO4 2NH4Cl  +  CaHPO4
+Na2SO3  +  Se Na2SO3Se
+2Al  +  3Se Al2Se3
+O2  +  Se SeO2
+3O2  +  2Se 2SeO3
+CH2Cl2  +  2Se 2HCl  +  CSe2
+2Na  +  Se Na2Se
+3KNO3  +  2KOH  +  Se H2O  +  3KNO2  +  K2SeO4
+H2  +  Se H2Se
+4NH2OH  +  SeO2 6H2O  +  2N2  +  Se
+H2O  +  SeO2 H2SeO3
+SeO2  +  SeO3 Se2O5
+SeO2  +  SeCl4 2SeOCl2
+2HCl  +  SeO2 Se(OH)2Cl2
+2NO2Cl Cl2  +  2NO2
+5NO2Cl 2Cl2  +  N2O5  +  N2O4  +  NOCl
+4NH2OH  +  SeO2 6H2O  +  2N2  +  Se
+H2SO4  +  NH2OH (NH3OH)HSO4
+H2SO4  +  2NH2OH (NH3OH)2SO4
+HCl  +  NH2OH NH3OHCl
+HNO3  +  NH2OH (NH3OH)NO3
+HNO2  +  NH2OH H2O  +  NO2NH2
+HClO4  +  NH2OH NH3OHClO4
+3NH2OH 3H2O  +  N2  +  NH3
+2NH2OH  +  2FeO(OH) 2H2O  +  N2  +  2Fe(OH)2
+NaNO2  +  NaOH  +  NH2OH 2H2O  +  Na2N2O2
+2BiH3O3 3H2O  +  Bi2O3
+2H2SO4  +  2KAg(CN)2 K2SO4  +  Ag2SO4  +  4HCN
+2KAg(CN)2 2Ag  +  2KCN  +  C2N2
+C6H5CH2CH3 H2  +  C6H5CHCH2
+2I2  +  6KOH  +  N2H4.H2SO4 6H2O  +  4KI  +  N2  +  K2SO4
+3H2O  +  (C17H35COO)3C3H5 C3H5(OH)3  +  3C17H35COOH
+Cl2  +  2HBr Br2  +  2HCl
+H2SO4  +  2HBr Br2  +  2H2O  +  SO2
+4HBr  +  MnO2 Br2  +  2H2O  +  MnBr2
+4HBr  +  O2 2Br2  +  2H2O
+C2H5OH  +  HBr H2O  +  C2H5Br
+16HBr  +  2KMnO4 Br2  +  8H2O  +  2KBr  +  2MnBr2
+3HBr  +  2P2O5 3HPO3  +  POBr3
+6HBr  +  KClO3 3Br2  +  3H2O  +  KCl
+6HBr  +  KBrO3 3Br2  +  3H2O  +  KCl
+HBr  +  NaOH H2O  +  NaBr
+Cl2  +  2HBr Br2  +  2HCl
+H2SO4  +  2HBr Br2  +  2H2O  +  SO2
+4HBr  +  MnO2 Br2  +  2H2O  +  MnBr2
+4HBr  +  O2 2Br2  +  2H2O
+C2H5OH  +  HBr H2O  +  C2H5Br
+16HBr  +  2KMnO4 Br2  +  8H2O  +  2KBr  +  2MnBr2
+3HBr  +  2P2O5 3HPO3  +  POBr3
+6HBr  +  KClO3 3Br2  +  3H2O  +  KCl
+6HBr  +  KBrO3 3Br2  +  3H2O  +  KCl
+HBr  +  NaOH H2O  +  NaBr
+Cl2  +  2HBr Br2  +  2HCl
+H2SO4  +  2HBr Br2  +  2H2O  +  SO2
+4HBr  +  MnO2 Br2  +  2H2O  +  MnBr2
+4HBr  +  O2 2Br2  +  2H2O
+C2H5OH  +  HBr H2O  +  C2H5Br
+16HBr  +  2KMnO4 Br2  +  8H2O  +  2KBr  +  2MnBr2
+3HBr  +  2P2O5 3HPO3  +  POBr3
+6HBr  +  KClO3 3Br2  +  3H2O  +  KCl
+6HBr  +  KBrO3 3Br2  +  3H2O  +  KCl
+HBr  +  NaOH H2O  +  NaBr
+(NH4)2CO3  +  BeCO3 (NH4)2Be(CO3)2
+BeCO3 BeO  +  CO2
+4NaOH  +  BeCO3 Na2CO3  +  Na2[Be(OH)4]
+2HCl  +  BeCO3 H2O  +  BeCl2  +  CO2
+Na2CO3  +  O2  +  Ag2Te 2Ag  +  CO2  +  Na2TeO3
+Se(OH)2Cl2 H2O  +  SeOCl2
+SO3  +  K2SeO4 K2SO4  +  SeO3
+I2Cl6 2Cl2  +  2ICl

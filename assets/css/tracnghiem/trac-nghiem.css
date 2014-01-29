@@ -1,0 +1,386 @@
+@import('do-test.css');
+body{
+	font-family: 'Open Sans',Helvertica,Arial,Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5{
+	font-weight: 600;
+}
+.btn,.btn:focus{
+	background: #1abc9c;
+	color:#fff;
+	border:0px;
+	box-shadow: none;
+	text-shadow:none;
+	height: inherit;
+	font-size: 16px;
+	margin-left: 0px;
+}
+.btn:hover,.btn:visited{
+	background: #1fb597;
+	color:#fff;
+}
+:focus,:active{outline:none;}
+.btn:focus,.btn:active{outline: none;}
+.title-18{
+	font-size: 18px;
+}
+.title-16{
+	font-size: 16px;
+}
+input{
+	height: 32px !important;
+}
+select{
+	height: 40px;
+	padding-top: 10px;
+}
+/*Custom SCrollbar*/
+.jspTrack .jspActive, .jspTrack .jspHover, .jspDrag:hover{
+	background: #29d9b6 !important;
+}
+.jspDrag{
+	background: #16a085 !important;
+}
+.including:before,.including:after{
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.including:after{
+	clear:both;
+}
+.mainContent{
+	 position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 101; 
+}
+#navbarTop,#navbarTool{
+	margin-bottom: 0px;
+}
+#navbarTop .brand{
+	background: url('../../img/tracnghiem/trac-nghiem-logo.png') no-repeat;
+	width: 180px;
+	height: 42px;
+	text-indent: -999999px;
+	background-size: 180px;
+	margin-top: 12px;
+	padding:0px;
+	margin-left: 0px;
+}
+#navbarTop .navbar-inner,#navbarTool .navbar-inner{
+	background: transparent;;
+	box-shadow: none;
+	border-radius: 0px;
+	border: 0px;
+	height: 70px;
+}
+#navbarTop .navbar-inner .container,#navbarTool .navbar-inner .container{
+	max-width: 1170px;
+}
+#navbarTop .btn,#navbarTool .btn{
+	margin-top: 17px;
+	padding:12px 12px;
+	background: #1abc9c;
+	border:0px;
+	height: 40px;
+}
+#navbarTop .nav{
+	margin-top: 15px;
+}
+#navbarTop ul li a,#navbarTool ul li a{
+	font-weight: 600;
+	color:#fff;
+	text-shadow:none;
+}
+#navbarTop ul li a:hover{
+	font-weight: 600;
+	color:#fff;
+}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
+	color:#fff;
+	background: transparent;
+}
+
+#navbarTool .navbar-inner{
+	height: 50px;
+	padding-left: 0px;
+}
+#navbarTool ul ,#navbarTool ul li{
+	min-height: 50px;
+	background: rgba(56,56,58,0.03);
+}
+#navbarTool ul li a{
+	padding:13px;
+}
+#navbarTool ul li a:hover{
+	background: #1abc9c;
+}
+
+#navbarTool .brand{
+	display: none;
+}
+.iconSprite-navTool{
+	background: url('../../img/tracnghiem/iconSprite-navTool.png') no-repeat;
+	width: 20px;height: 20px;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	right: 10px;
+}
+.createBookIcon{
+	background-position: -20px top;
+}
+
+@media only screen and (max-width: 260px){
+	#navbarTop .brand{
+		background-size: 120px auto;
+		width: 120px;
+		height: 46px;
+		margin-top: 19px;
+	}
+}
+@media (max-width: 979px){
+	#navbarTool .navbar-inner{
+		padding-left: 30px;
+	}
+	.nav-collapse .nav > li,#navbarTop .nav,#navbarTool .nav{
+		background: rgba(56,56,58,0.80);
+	}
+	#navbarTop ul li a, #navbarTool ul li a{
+		text-align: center;
+	}
+	#navbarTool ul li a:hover,#navbarTop ul li a:hover{
+		background: #1abc9c
+	}
+	#navbarTool .btn{
+		margin-top: 7.5px;
+	}	
+	#navbarTool .brand{
+		display: block;
+		padding:0px;
+		margin-top:5px;
+		color:white;
+	}
+}
+@media (max-width: 767px){
+	body{
+		padding:0px 5px;
+	}
+}
+.hero-unit{
+	background: transparent url('../../img/tracnghiem/hero-unit-bg.jpg') no-repeat 50% top;
+	min-height:400px;
+	background-size: cover;
+	border-radius: 0;
+	margin-bottom: 0;
+	color:#fff;
+	padding:0px;
+}
+.hero-unit-inner{
+	margin-top: 50px;
+}
+.text-in-hero{
+	background: rgba(56,56,58,0.2);
+	padding:10px;
+	margin-bottom: 20px
+}
+.hero-unit-inner h4,.hero-unit-inner h1{
+	margin-bottom: 10px
+}
+.hero-unit-inner .btn{
+	background: #1abc9c;
+	box-shadow: none;
+	border:0px;
+	font-weight: 600;
+	height: inherit;
+	padding:15px;
+}
+
+
+/* Plan */
+
+#plan{
+	background: #ecf0f1;
+	padding:40px 0px;
+}
+#plan .span4 p{
+	padding:0px 50px;
+}
+.iconSprite-plan{
+	background: url('../../img/tracnghiem/iconSprite-plan.png') no-repeat;
+	width: 100px;height: 100px;
+	display: inline-block;
+	position: relative;
+}
+.iconSprite-plan.createIcon{
+	background-position: -100px;
+}
+.iconSprite-plan.phoneIcon{
+	background-position: -200px;
+}
+
+/* Info */
+#info .content-info:before,#info .content-info:after{
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.content-info:after{
+	clear:both;
+}
+
+#info .content-info{
+	max-width: 600px;
+	margin: auto;
+	padding:50px;
+}
+.content-info img{
+	width: 100px;
+	margin: 0 auto;
+}
+.content-info p{
+	max-width: 388px;
+	border-left:2px solid #3498db;
+	padding-left:20px;
+}
+
+/* Thông tin trắc nghiệm */
+
+#thongtin-tracnghiem{
+	padding:50px 0px;
+}
+#thongtin-tracnghiem h4{
+	margin:5px 0px 5px;
+}
+#thongtin-tracnghiem input[type=text]{
+	height: 28px;
+	border-radius:0px;
+}
+#thongtin-tracnghiem select{
+	height: 35px;	
+}
+#thongtin-tracnghiem option{
+	padding:5px;
+}
+#tao-tracnghiem{
+	padding:50px 0px;
+	background: #ecf0f1;
+}
+#tao-tracnghiem a,#tao-tracnghiem:visited{
+	text-decoration: none
+}
+#tao-tracnghiem #column-cauhoi,#tao-tracnghiem #column-noidung,#tao-tracnghiem #column-dapan{
+	background: #fff;
+	margin-top:5px;
+}
+#tao-tracnghiem p.title-18,#tao-tracnghiem #column-cauhoi p,#tao-tracnghiem #column-dapan p,#tao-tracnghiem #column-cauhoi .btn{
+	text-align: center;
+	padding:10px 0px;
+}
+#tao-tracnghiem p.title-18{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#tao-tracnghiem p.title-18,#tao-tracnghiem .btn{
+	color:#fff;
+	background: #1abc9c;	
+}
+#tao-tracnghiem #column-cauhoi p.cau-hoi:hover,#tao-tracnghiem #column-dapan p.dap-an:hover,#tao-tracnghiem .selected{
+	background: #1abc9c;
+	color:#fff;
+	cursor: pointer;
+}
+#tao-tracnghiem #column-cauhoi .btn{
+	min-width:50%;
+	float:left;
+	border-radius: 0px;
+	padding:10px 0px;
+}
+
+#tao-tracnghiem #column-noidung .noidung{
+	padding:20px
+}
+#tao-tracnghiem #column-noidung textarea{
+	min-width: 95%;
+	max-width: 95%;
+}
+#tao-tracnghiem #column-noidung .txt-dapan{
+	margin-left:10%;
+	min-width: 85%;
+	max-width: 85%;
+}
+
+#tao-tracnghiem #luu-tracnghiem{
+	margin-top:20px;
+	min-width: 30%;
+	margin-left: 35%;
+	padding:15px 0;
+}
+
+#tao-tracnghiem #cau-hoi{
+	height: 500px;
+	overflow-y: scroll;
+}
+
+
+#footer{
+	background: #34495e;
+	color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+}
+#footer .brand{
+	background: url('../../img/trac-nghiem-logo.png') no-repeat;
+	background-size: 140px;
+	width: 140px;
+	text-indent: -999999px;
+}
+#footer p{
+	margin-top:10px;
+}
+.ui-loader-default {
+margin-left: -23px;
+margin-top: -23px;
+position: fixed;
+padding: 20px;
+}
+.ui-loader .ui-icon {
+display: block;
+margin: 0;
+padding: 1px;
+-webkit-border-radius: 36px;
+border-radius: 36px;
+}
+.ui-loader {
+display: block;
+z-index: 9999999;
+
+background: rgba(46,47,49,0.8);
+top: 50%;
+left:45%;
+border: 0;
+}
+.ui-img-loading{
+	display: block;
+	background: url('../../img/ajax-loader.gif') no-repeat;
+	background-size:150px;
+	width: 150px;
+	height: 32px
+}
+@media (max-width: 350px){
+	.ui-img-loading{
+		background-size: 150px;
+		width: 150px;
+	}
+	.ui-loader{
+		left: 25%;
+	}
+}
+#userTool{
+	padding-top:10px;
+	margin-right: 50px;
+}

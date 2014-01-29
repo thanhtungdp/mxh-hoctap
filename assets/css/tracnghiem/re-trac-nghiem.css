@@ -1,0 +1,11 @@
+.hero-unit{
+	min-height: 0px !important;
+}
+.hero-unit{
+   	background-position-y: -100px;
+}
+@media (max-width:1190px){
+	.hero-unit{
+   		background-position-y: 0px !important;
+	}
+}

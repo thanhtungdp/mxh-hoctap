@@ -1,0 +1,12 @@
+Ca(NO3)2
+Cl2
+H2O
+H2SO4
+K2S
+HNO3
+KCl
+Mg(NO3)2
+Na2S2O3
+NaOH
+O2 failed
+SiO2 mysql error
