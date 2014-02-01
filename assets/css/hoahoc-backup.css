@@ -1,0 +1,209 @@
+@import url("textext.core.css");
+@import url("textext.plugin.arrow.css");
+@import url("textext.plugin.autocomplete.css");
+@import url("textext.plugin.clear.css");
+@import url("textext.plugin.focus.css");
+@import url("textext.plugin.prompt.css");
+@import url("textext.plugin.tags.css");
+@import url("token-input.css");
+@import url("token-input-facebook.css");
+body{
+	font-family: 'Open Sans',Helvertica,Arial,Sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background: url('../img/bkgd_pattern.png') repeat;
+}
+@font-face{
+	font-family: "Museo";
+	src: url('../fonts/MUSEO700.OTF') format('truetype');
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 600;
+	color: #333333;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+h3{
+	font-size: 22px;
+}
+a:hover{
+	text-decoration: none;
+}
+#navbarTop{
+	margin-bottom: 0px;
+}
+#navbarTop .navbar-inner{
+	min-height: inherit;
+}
+#navbarTop .navbar-inner,#footer{
+	background:#494949;
+	border:none;
+	border-radius:0px;
+}
+#navbarTop .brand h4{
+	color:#fff;
+}
+#navbarTop a,#footer{
+	color:#fff;
+}
+#navbarTop a:hover,#navbarTop a:focus{
+	background: #343434;
+	text-decoration: none;
+}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus
+#navbarTop .navbar-fixed-top{
+	background: #343434;
+	position: none;
+}
+#navbarTop .container{
+	max-width: 1170px;
+}
+#content{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.bs-header{
+	background:#3498db repeat;
+	color:#fff;
+	margin-bottom: 30px;
+	padding:0 20px;
+}
+.bs-header h2{
+	color:white;
+}
+.bs-header .about{
+	max-width:500px;
+}
+
+.bs-headerInfo{
+	max-width:300px;
+}
+.bs-headerInfo{
+	margin-top:20px;
+	background: rgba(41, 128, 185, 0.5) url('../img/icon-link-bg.png') no-repeat bottom right ;
+}
+
+.bs-headerInfo blockquote{
+	border-left: none;	
+	padding:20px;
+}
+
+#menu-chemistry{
+	margin-bottom: 30px;
+}
+#menu-chemistry .chemistryMenu{
+	min-height: 140px;
+	padding:10px 0;
+	cursor: pointer;
+} 
+#menu-chemistry .chemistrySprite{
+	display: inline-block;
+	width: 70px;height: 70px;
+	background: transparent url("../img/iconMenuChemistry-sprite.png") no-repeat;
+	background-position: left top;
+}
+#menu-chemistry h3{
+	color:white;
+}
+.chemistrySprite:hover,.chemistryMenu:hover{
+	opacity:0.8;
+}
+.iBalanced{
+	background-position: -70px top !important;
+}
+.iChain{
+	background-position: -140px top !important;
+}
+.iPeriodic{
+	background-position: -210px top !important;
+}
+#menu-chemistry .cmEquation{
+	background:#ffb94a;
+}
+#menu-chemistry .cmBalanced{
+	background:#3498db;
+}
+#menu-chemistry .cmChain{
+	background:#34495e;
+}
+#menu-chemistry .cmPeriodic{
+	background:#16a085;
+}
+#frmSearch{
+	margin-bottom:30px;
+}
+.search input[type=text],.search button{
+	padding:0 10px;
+	border:1px solid #d4d4d4;
+	width: 100% !important;
+	height: 40px;
+	font-size: 16px;
+}
+.search button,.search button:focus{
+	border:0px;
+	background: #38383a;
+	color:white;
+	font-weight: 600
+}
+.search button:hover{
+	background: #38383a;
+	opacity: 0.8;
+	color:#fff;
+}
+#equation_results,#table_result{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#equation_results .text-center,#table_result tr td{
+	background: #e9e9e9;
+	padding:20px;
+}
+#equation_results .text-center:nth-child(odd),#table_result tr:nth-child(odd) td{
+	background: white;	
+}
+#bang-tuan-hoan td{
+	max-width: 20px
+}
+#bang-tuan-hoan .xs {
+color: #333333;
+background-color: #6699ff;
+border: 1px solid #336699;
+text-align: center;
+}
+#bang-tuan-hoan .xd {
+color: #333333;
+background-color: #ff9999;
+border: 1px solid #cc6666;
+text-align: center;
+}
+#bang-tuan-hoan .xp {
+color: #333333;
+background-color: #ffcc00;
+border: 1px solid #cc9900;
+text-align: center;
+}
+#bang-tuan-hoan .xf {
+color: #333333;
+background-color: #00cc33;
+border: 1px solid #009900;
+text-align: center;
+}
+.alert{
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#huong-dan{
+	display:none;
+}
+#huong-dan .click-up{
+	width: 100%;
+}
+#footer{
+	padding-top:10px;
+	margin-top: 100px;
+}
+.text-wrap,.text-wrap{
+	width: 100% !important;
+}

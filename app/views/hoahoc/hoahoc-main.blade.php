@@ -8,11 +8,8 @@
 	<link rel="icon" href="{{Asset('img/favicon.ico')}}" type="image/x-icon">
 	<link rel="shortcut icon" href="{{Asset('img/favicon.ico')}}" type="image/x-icon">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="{{Asset('assets/css/bootstrap.css')}}"/>
-	<link rel="stylesheet" href="{{Asset('assets/css/bootstrap-responsive.css')}}"/>
+	<link rel="stylesheet" href="{{Asset('assets/css/bootstrap3/bootstrap.min.css')}}"/>
 	<link rel="stylesheet" href="{{Asset('assets/css/hoahoc.css')}}"/>
-	<link rel="stylesheet" href="{{Asset('assets/css/token-input.css')}}"/>
-	<link rel="stylesheet" href="{{Asset('assets/css/token-input-facebook.css')}}"/>
 	<link rel="stylesheet" href="{{Asset('assets/css/ytLoad.jquery.css')}}"/>
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 	<script language="javascript" type="text/javascript" src="{{Asset('assets/js/jquery-1.8.0.min.js')}}"></script>
@@ -38,7 +35,7 @@
 		load.customDurations();
 	</script>
 	<script type="text/javascript" src="{{Asset('assets/js/default-load.js')}}"></script>
-	<script type="text/javascript" src="{{Asset('assets/js/bootstrap.js')}}"></script>
+	<script type="text/javascript" src="{{Asset('assets/js/bootstrap3/bootstrap.js')}}"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			var count_click=0;
@@ -54,79 +51,139 @@
 	</script>
 </head>
 <body>
-<div class="navbar navbar-inverse" id="navbarTop">
-  <div class="navbar-inner">
-    <div class="container">
-    	<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-      <a class="brand" href="{{Asset('hoa-hoc')}}"><h4><i class="icon-book icon-white"></i>Từ điển hóa học</h4></a>
-      <div class="nav-collapse collapse">
-        <ul class="nav pull-right">
-          <li class="active"><a href="{{Asset('hoa-hoc')}}">Trang chủ</a></li>
-          <li><a href="#about">Về tôi</a></li>
-          <li><a href="https://www.facebook.com/phanthanh.tung.1238">Liên hệ tôi</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
-</div>
-<div class="bs-header" id="content">
-	<div class="container">
-		<div class="pull-left about">
-			<h2>Bạn nên trải nghiệm</h2>
-			<p>Từ điển hóa hoc là bộ công cụ giúp bạn tìm kiếm các phương trình hóa học,
-				cách cân bằng phương trình, giải các chuỗi phản ứng, cung cấp bảng tuần hoàn</p>
-			<p>Từ điển hóa học là một bộ công cụ tuyệt vời giúp các bạn học tốt môn hóa hơn </p>
+
+
+<nav class="navbar navbar-default navbar-static-top box-shadow" role="navigation" id="navbar">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-list">
+	      <span class="sr-only">Toggle navigation</span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="#">Từ điển hóa học</a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse" id="menu-list">
+	    <div class="nav navbar-nav navbar-right" id="button-menu-dropdown">
+		    <div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			    Trang khác <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" role="menu">
+			    <li><a href="#">Action</a></li>
+			    <li><a href="#">Another action</a></li>
+			    <li><a href="#">Something else here</a></li>
+			    <li class="divider"></li>
+			    <li><a href="#">Separated link</a></li>
+			  </ul>
+			</div>
 		</div>
-		<div class="bs-headerInfo pull-right">
-			<blockquote><p>Danh ngôn:</p>Đừng xấu hổ khi không biết, chỉ xấu hổ khi không học</blockquote>
-		</div>
+	  </div><!-- /.navbar-collapse -->
 	</div>
-</div>
-<div id="menu-chemistry">
+</nav>
+<section id="wrapper">
 	<div class="container">
 		<div class="row">
-			<a href="{{Asset('hoa-hoc/tim-kiem-pt')}}">
-				<div class="span3 text-center chemistryMenu cmEquation">
-					<span class="chemistrySprite iEquation"></span>
-					<h3>Tìm kiếm phản ứng</h3>
+			<div class="col-md-4">
+				<div class="list-group box-shadow">
+					<a href="#" class="list-group-item item-find-equation actived"><span class="icon-sprite"></span>Tìm kiếm phương trình</a>
+					<a href="#" class="list-group-item item-balanced-equation"><span class="icon-sprite icon-balanced"></span>Cân bằng phương trình</a>
+					<a href="#" class="list-group-item item-chainreaction"><span class="icon-sprite icon-chainreaction"></span>Giải chuỗi phương trình</a>
+					<a href="#" class="list-group-item item-periodic"><span class="icon-sprite icon-periodic"></span>Bảng tuần hoàn</a>
+				</div>		
+			</div>
+			<div class="col-md-8">
+				<form action="" id="frm">
+					<input type="text" class="form-control input-form col-md-5 " placeholder="Chất tham gia"/>
+					<input type="text" class="form-control input-form col-md-5" placeholder="Chất sản phẩm"/>
+					<button class="btn">Tìm kiếm</button>
+				</form>
+				<div id="followingBallsG">
+				<div id="followingBallsG_1" class="followingBallsG">
 				</div>
-			</a>
-			<a href="{{Asset('hoa-hoc/can-bang-pt')}}">
-				<div class="span3 text-center chemistryMenu cmBalanced">
-					<span class="chemistrySprite iBalanced"></span>
-					<h3>Cân bằng phương trình</h3>
+				<div id="followingBallsG_2" class="followingBallsG">
 				</div>
-			</a>
-			<a href="{{Asset('hoa-hoc/chuoi-phan-ung')}}">
-				<div class="span3 text-center chemistryMenu cmChain">
-					<span class="chemistrySprite iChain "></span>
-					<h3>Chuỗi phản ứng</h3>
+				<div id="followingBallsG_3" class="followingBallsG">
 				</div>
-			</a>
-			<a href="{{Asset('hoa-hoc/bang-tuan-hoan')}}">
-				<div class="span3 text-center chemistryMenu cmPeriodic ">
-					<span class="chemistrySprite iPeriodic"></span>
-					<h3>Bảng tuần hoàn</h3>
+				<div id="followingBallsG_4" class="followingBallsG">
 				</div>
-			</a>
-		</div>
-	</div>
-</div>
+				</div>
+				<div id="search-results" class="box-shadow">
+					<h4>10 kết quả trả về</h4>
+					<div class="result">						
+						<div class="equation">
+							Fe <span class="span-color">+</span> Cl<sub>2</sub> <span class="span-color">=</span> FeCl<sub>3</sub> <span class="span-color">+</span> FeCl<sub>3</sub> <span class="span-color">+</span> FeCl<sub>3</sub>
+						</div>
+						<div class="conditions">
+							<span class="icon-conditions"></span>
+							Điều kiện: Nhiệt độ cao  -  Xúc tác: Benzen  -  Hiện tượng: Kết tủa
+						</div>
+					</div>
+					<div class="result">						
+						<div class="equation">
+							Fe<span class="span-color">+</span>Cl<sub>2</sub><span class="span-color">=</span>FeCl<sub>3</sub>
+						</div>
+						<div class="conditions">
+							<span class="icon-conditions"></span>
+							Điều kiện: Nhiệt độ cao  -  Xúc tác: Benzen  -  Hiện tượng: Kết tủa
+						</div>
+					</div>
+					<div class="result">						
+						<div class="equation">
+							Fe<span class="span-color">+</span>Cl<sub>2</sub><span class="span-color">=</span>FeCl<sub>3</sub>
+						</div>
+						<div class="conditions">
+							<span class="icon-conditions"></span>
+							Điều kiện: Nhiệt độ cao  -  Xúc tác: Benzen  -  Hiện tượng: Kết tủa
+						</div>
+					</div>
+					<div class="result">						
+						<div class="equation">
+							Fe<span class="span-color">+</span>Cl<sub>2</sub><span class="span-color">=</span>FeCl<sub>3</sub>
+						</div>
+						<div class="conditions">
+							<span class="icon-conditions"></span>
+							Điều kiện: Nhiệt độ cao  -  Xúc tác: Benzen  -  Hiện tượng: Kết tủa
+						</div>
+					</div>
+					<div class="result">						
+						<div class="equation">
+							Fe<span class="span-color">+</span>Cl<sub>2</sub><span class="span-color">=</span>FeCl<sub>3</sub>
+						</div>
+						<div class="conditions">
+							<span class="icon-conditions"></span>
+							Điều kiện: Nhiệt độ cao  -  Xúc tác: Benzen  -  Hiện tượng: Kết tủa
+						</div>
+					</div>
+					<div class="text-center">
+					  <ul class="pagination">
+					    <li class="disabled"><a href="#">« Previous</a></li> 
+					    <li class="active"><a title="Go to page 1 of 12" href="#">1</a></li> 
+					    <li><a title="Go to page 2 of 12" href="/index.php?page=2&ipp=10">2</a></li> 
+					    <li><a title="Go to page 3 of 12" href="/index.php?page=3&ipp=10">3</a></li> 
+					    <li><a href="/index.php?page=2&ipp=10">Next »</a></li>
+					  </ul>
+					</div>
+				</div>
+			</div><!--End col-md-8-->
+		</div><!--End row-->
+	</div><!--End container-->
+</section>
+<div id="footer">
 
-@yield("find-equations")
-@yield("chain-reaction")
-@yield("balanced-equation")
-@yield("periodic-table")
-</script>
-<footer id="footer">
 	<div class="container">
-		<p class="pull-left">Chemistry Beta</p>
-		<p class="pull-right">Được phát triển bởi Phan Thanh Tùng - Email: tungptkh@gmail.com</p>
+		<footer class="box-shadow">
+		<p class="pull-left">Copyright &copy SmartNet</p>
+		<p class="pull-right">Designed by DavidEvans</p>
+		</footer>
 	</div>
-</footer>
+
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
