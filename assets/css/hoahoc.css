@@ -98,11 +98,19 @@ a.list-group-item:hover, a.list-group-item:focus,.list-group-item.actived{
 
 	/*background: url('../img/icon-conditions.png') no-repeat left;*/
 }
+<<<<<<< HEAD
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
 	background:#e74c3c;border:1px solid #e74c3c; 
 }
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
 	background: #e74c3c;color:#fff;border:1px solid #e74c3c; 
+=======
+.pagination ul > li > a:hover, .pagination ul > li > span:hover, .pagination ul > li > a:focus, .pagination ul > li > span:focus{
+	background:#e74c3c;border:1px solid #e74c3c;color:#fff; 
+}
+.pagination ul > .active > a, .pagination ul > .active > span, .pagination ul > .active > a:hover, .pagination ul > .active > span:hover, .pagination ul > .active > a:focus, .pagination ul > .active > span:focus{
+	background:#e74c3c;border:1px solid #e74c3c;
+>>>>>>> 12acf564e6f02b3f31d6ba2d5bbe247302551827
 }
 footer{
 	margin: 30px 0px 0px;

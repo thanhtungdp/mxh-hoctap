@@ -19,10 +19,10 @@ class EquationController{
 		else return $i;
 	}
 	public static function ConvertEquation($equation){
-		$s="";
+		$s="";$tmp_e="";
 		$equation=trim($equation);
-		$equation=str_replace("+","  +  ",$equation);
-		$equation=str_replace("=","  ->  ",$equation);
+		//$equation=str_replace("+","<span class='span-color'>+</span>",$equation);
+		//$equation=str_replace("="," <span class='span-color'>=</span> ",$equation);
 		for($i=0;$i<strlen($equation);$i++){
 			if(is_numeric($equation[$i])){
 				//Kiểm tra số học
@@ -58,7 +58,14 @@ class EquationController{
 				$s.=$equation[$i];
 			}
 		}
-		return $s;
+		$equation=$s;
+		for($i=0;$i<strlen($equation);$i++)
+			if($equation[$i]=='+')
+				$tmp_e.=" <span class='span-color'>+</span> ";
+			else if ($equation[$i]=='=')
+				$tmp_e.=" <span class='span-color'>=</span> ";
+			else $tmp_e.=$equation[$i];
+		return $tmp_e;
 	}
 	public static function replaceEquation($equation){
 		//Loại bỏ (s) và (aq)

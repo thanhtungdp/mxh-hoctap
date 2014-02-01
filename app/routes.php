@@ -101,10 +101,12 @@ Route::group(array("prefix"=>"hoa-hoc"),function(){
 		return View::make("hoahoc.find-equations");
 	});
 	Route::get("tim-kiem-pt/{chatThamGia?}/{chatTaoThanh?}",function($chatThamGia=null,$chatTaoThanh=null){
-		$pt=new PhuongTrinhHoaHocController($chatThamGia,$chatTaoThanh);
-		$data['input_chatThamGia']=$chatThamGia;
-		$data['input_chatTaoThanh']=$chatTaoThanh;
-		$data['equations']=$pt->returnArray();
+		$pt=new FindEquationController($chatThamGia,$chatTaoThanh);
+		$data['input_chatThamGia']=trim($chatThamGia);
+		$data['input_chatTaoThanh']=trim($chatTaoThanh);
+		$data['equations']=$pt->getEquations();
+		if(isset($_GET['getJSON']))
+			return $pt->getJSON();
 		return View::make("hoahoc.find-equations",$data);
 	});
 	Route::post("tim-kiem-pt",function(){
@@ -155,10 +157,11 @@ Route::group(array("prefix"=>"hoa-hoc"),function(){
 });
 Route::group(array("prefix"=>'test'),function(){
 	Route::get("find",function(){
-		$find=new FindEquationController("H2SO4");
-		foreach($find->byChatThamGia() as $id){
+		$find=new FindEquationController("Fe O2");
+		$find->getEquations();
+		/*foreach($find->byChatThamGia() as $id){
 			echo ChemistryEquation::get_equation($id)->phuong_trinh."<br/>";
-		}
+		}*/
 	});
 });
 Route::group(array("prefix"=>'get'),function(){

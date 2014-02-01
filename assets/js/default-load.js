@@ -1,9 +1,9 @@
 
 function startLoad(){
-	$("#searchLoad").html("<img src='"+getURL()+"img/ajax-loader.gif' class='text-center'/>");
+	$("#followingBallsG").css("display","block");
 }
 function clearLoad(){
-	$("#searchLoad").html("");
+	$("#followingBallsG").css("display","none");
 }
 function getThulium(){
 	var array=new Array();

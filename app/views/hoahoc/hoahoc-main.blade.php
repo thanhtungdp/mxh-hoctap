@@ -8,7 +8,11 @@
 	<link rel="icon" href="{{Asset('img/favicon.ico')}}" type="image/x-icon">
 	<link rel="shortcut icon" href="{{Asset('img/favicon.ico')}}" type="image/x-icon">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+<<<<<<< HEAD
 	<link rel="stylesheet" href="{{Asset('assets/css/bootstrap3/bootstrap.min.css')}}"/>
+=======
+	<link rel="stylesheet" href="{{Asset('assets/css/bootstrap3/bootstrap.css')}}"/>
+>>>>>>> 12acf564e6f02b3f31d6ba2d5bbe247302551827
 	<link rel="stylesheet" href="{{Asset('assets/css/hoahoc.css')}}"/>
 	<link rel="stylesheet" href="{{Asset('assets/css/ytLoad.jquery.css')}}"/>
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
@@ -97,12 +101,17 @@
 				</div>		
 			</div>
 			<div class="col-md-8">
+<<<<<<< HEAD
 				<form action="" id="frm">
 					<input type="text" class="form-control input-form col-md-5 " placeholder="Chất tham gia"/>
 					<input type="text" class="form-control input-form col-md-5" placeholder="Chất sản phẩm"/>
 					<button class="btn">Tìm kiếm</button>
 				</form>
 				<div id="followingBallsG">
+=======
+				@yield("search-form")				
+				<div id="followingBallsG"  style="display:none">
+>>>>>>> 12acf564e6f02b3f31d6ba2d5bbe247302551827
 				<div id="followingBallsG_1" class="followingBallsG">
 				</div>
 				<div id="followingBallsG_2" class="followingBallsG">
@@ -112,6 +121,7 @@
 				<div id="followingBallsG_4" class="followingBallsG">
 				</div>
 				</div>
+<<<<<<< HEAD
 				<div id="search-results" class="box-shadow">
 					<h4>10 kết quả trả về</h4>
 					<div class="result">						
@@ -169,6 +179,10 @@
 					  </ul>
 					</div>
 				</div>
+=======
+				@yield('find-equations')
+				
+>>>>>>> 12acf564e6f02b3f31d6ba2d5bbe247302551827
 			</div><!--End col-md-8-->
 		</div><!--End row-->
 	</div><!--End container-->
